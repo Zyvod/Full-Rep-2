@@ -1,0 +1,72 @@
+* {
+margin: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+#Container {
+  display: flex;
+  justify-content: center;
+  border: 5px;
+  border-style: double;
+  border-color: red;
+  margin-bottom: 5vh;
+}
+
+#PageHeader {
+  border: 5px;
+  border-style: groove;
+  border-color: black;
+}
+
+#appDiv {
+  height: 80vh;
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: 5px;
+  border-style: double;
+  border-color: red;
+}
+
+#TaskList {
+  border: 5px;
+  border-style: groove;
+  border-color: black;
+}
+
+#appHeader {
+  text-align: center;
+}
+
+#taskDiv{
+  height: 60vh;
+  width: 85vw;
+  border: 5px;
+  border-style: dashed;
+  border-color: purple;
+}
+
+#headerDiv {
+  height: fit-content;
+  width: 85vw;
+  border: 5px;
+  border-style: dashed;
+  border-color: blue;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  }
+
+#getTasksBtn {
+  border: 5px;
+  border-style: outset;
+  border-color: blue;
+  align-self: flex-end;
+}
+
+.list-button {
+ margin-left: 75vw;
+}
