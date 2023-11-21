@@ -1,1 +1,1 @@
-CREATE TABLE tasks (id SERIAL PRIMARY KEY, task TEXT)
+CREATE TABLE tasks (id SERIAL PRIMARY KEY, task TEXT, task_name TEXT)

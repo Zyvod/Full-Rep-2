@@ -40,3 +40,17 @@ app.get('/api/alltasks', async (req,res) => {
 app.listen(APIPORT,(req,res) => {
   console.log(`Server listening on PORT 3000`)
 })
+
+app.put('/api/createTask', async (req,res) => {
+  const data = req.body
+  try {
+    const insertResult = await pool.query(
+      `INSERT INTO tasks (task,task_name) VALUES ($1,$2);`,
+    [data.task,data.name]
+    )
+    res.status(200).send('Task Created Successfully')
+  } catch(err) {
+    console.error(err)
+    res.status(400).send('Bad Request')
+  }
+})

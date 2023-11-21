@@ -67,6 +67,15 @@ box-sizing: border-box;
   align-self: flex-end;
 }
 
+#createTaskBtn {
+
+  border: 5px;
+  border-style: outset;
+  border-color: blue;
+  align-self: flex-end;
+
+}
+
 .list-button {
- margin-left: 75vw;
+ /* margin-left: 75vw; */
 }

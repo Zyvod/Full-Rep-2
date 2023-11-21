@@ -1,1 +1,1 @@
-INSERT INTO tasks (task) VALUES ('Do the thing before the time and after the other thing, but not before the one thing.')
+INSERT INTO tasks (task,task_name) VALUES ('Do the thing before the time and after the other thing, but not before the one thing.','Thing 1')
